@@ -10,3 +10,156 @@
   display: flex;
   justify-content: center;
 }
+.box{
+  background-color: white;
+  padding: 5px 20px 20px 20px;
+  border-radius: 10px;
+  height: 100%;
+}
+.box-header{
+  font-weight: 650;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+.box-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .inprogress{
+  border: 1px solid blue;
+} */
+.completed{
+  border: 1px solid green;
+}
+.failed{
+  border: 1px solid red;
+}
+.box-top-content{
+  display: flex;
+  justify-content: space-around;
+}
+.status{
+  width: 110px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.status-box{
+  background-color: #f2f2f2;
+  padding: 5px;
+  border-radius: 10px;
+}
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: auto;
+}
+.bar-container {
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+*{
+  box-sizing: border-box;
+}
+
+
+
+.report_page{
+  padding: 0 25px 25px;
+  display: flex;
+  flex-direction: column;
+}
+.page_titile{
+  font-size: 32px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 20px;
+  text-align: center;
+  background: #fff;
+  margin: 0 auto;
+  padding: 5px 25px;
+  border-radius: 0 0px 10px 10px;
+  box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px,rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+  border: 1px solid #ebf1f6;
+  margin-bottom: 20px;
+}
+.white_board{
+  display: flex;
+  background: #fff;
+  box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px,rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+  padding: 10px;
+  border-radius: 7px;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.white_main_board{
+  display: flex;
+  background: #fff;
+  box-shadow: rgba(145, 158, 171, 0.2) 0px 0px 2px 0px,rgba(145, 158, 171, 0.12) 0px 12px 24px -4px;
+  border: 1px solid #ebf1f6;
+  padding: 15px 15px 0;
+  border-radius: 7px;
+  flex-direction: column;
+  width: 100%;
+}
+  
+.ionc_view{
+  background: #26bf94;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  color: #fff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.mini_title{
+  font-size: 16px;
+  font-weight: 600;
+  color: #8e8f90;
+  text-transform: capitalize;
+  text-align: center;
+}
+.count_value{
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  text-align: center;
+}
+.white_board .apexcharts-toolbar{
+  display: none;
+}
+ .inprogress{
+  background: #0dcaf0;
+ }
+ .inerror{
+  background: #dc3545;
+ }
+ .pad_8{
+  padding: 0 8px;
+ }
+ .instart{
+  background: #864ae8;
+ }
+ .inValidate{
+  background: #F2B64C;
+ }
+ .inupload{
+  background: #e791bc;
+ }
