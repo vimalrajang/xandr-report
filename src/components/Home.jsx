@@ -174,8 +174,8 @@ function Home() {
 
     return (
         <>
-            <div class="content-area">
-                <div class="container-fluid">
+            <div className="content-area">
+                <div className="container-fluid">
                     {!loading ?
                         <div className="main">
                             <div className="row mt-3">

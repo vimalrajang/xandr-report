@@ -22,7 +22,7 @@ function BssStatus(props) {
                                     </div>
                                     <div className='mini_seprator'>
                                         <div className='mini_title'>Completed</div>
-                                        <div className='count_value'>{phases['completed']["value"]}</div>
+                                        <div className='count_value'>{phases['completed']}</div>
                                     </div>
                                 </div>
                             </div>
